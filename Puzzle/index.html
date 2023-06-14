@@ -18,14 +18,15 @@
     </div>
     <div id="unity-warning"> </div>
     <div id="unity-footer">
+      <div>
+        <button class="close-button" onclick="closePage()">Close</button>
+      </div>
       <div id="unity-webgl-logo"></div>
       <div id="unity-fullscreen-button"></div>
       <div id="unity-build-title">Puzzle</div>
     </div>
   </div>
-  <div id="footer">
-    <button class="close-button" onclick="closePage()">Close</button>
-  </div>
+  
   <script>
     function closePage() {
       window.open("about:blank", "_top").close();
