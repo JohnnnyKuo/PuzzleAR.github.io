@@ -6,7 +6,13 @@
   <title>Unity WebGL Player | Puzzle</title>
   <link rel="shortcut icon" href="TemplateData/favicon.ico">
   <link rel="stylesheet" href="TemplateData/style.css">
+  <style>
+    .close-button {
+      float: right;
+    }
+  </style>
 </head>
+  
 <body>
   <div id="unity-container" class="unity-desktop">
     <canvas id="unity-canvas" width="1280" height="720"></canvas>
@@ -18,12 +24,13 @@
     </div>
     <div id="unity-warning"> </div>
     <div id="unity-footer">
-      <div>
-        <button class="close-button" onclick="closePage()">Close</button>
-      </div>
+      
       <div id="unity-webgl-logo"></div>
       <div id="unity-fullscreen-button"></div>
       <div id="unity-build-title">Puzzle</div>
+      <div>
+        <button class="close-button" onclick="closePage()">Close</button>
+      </div>
     </div>
   </div>
   
