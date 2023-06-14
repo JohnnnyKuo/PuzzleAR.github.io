@@ -25,9 +25,7 @@
         cursor: pointer;
       }
     </style>
-    <div id="header">
-      <button class="close-button" onclick="closePage()">Close</button>
-    </div>
+    
   <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=1280 height=720></canvas>
@@ -43,6 +41,9 @@
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">Puzzle</div>
       </div>
+    </div>
+    <div>
+      <button class="close-button" onclick="closePage()">Close</button>
     </div>
     <script>
       var container = document.querySelector("#unity-container");
